@@ -10,8 +10,6 @@ output:
 
 # Título 1
 
----
-
 input:
 
 ```markdown
@@ -21,8 +19,6 @@ input:
 output:
 
 ## Título 2
-
----
 
 input:
 
@@ -34,8 +30,6 @@ output:
 
 ### Título 3
 
----
-
 input:
 
 ```markdown
@@ -46,8 +40,6 @@ output:
 
 #### Título 4
 
----
-
 input:
 
 ```markdown
@@ -57,8 +49,6 @@ input:
 output:
 
 ##### Título 5
-
----
 
 input:
 
@@ -70,15 +60,11 @@ output:
 
 ###### Título 6
 
----
-
 # 2. Trabalhando com parágrafos
 O parágrafo não precisa de uma tag específica para utilizá-lo. Basta escrever normalmente que ele já é identificado como um parágrafo. Para quebrar linha, basta que você dê 2 espaços ao final de um parágrafo anterior. Para pular linha e dar um espaço maior, basta que você deixe uma linha em branco entre os parágrafos.  
 Parágrafo após 2 espaços ao final do anterior.
 
 Parágrafo após uma linha em branco do anterior. 
-
----
 
 # 3. Trabalhando com ênfase
 
@@ -94,8 +80,6 @@ output:
 
 **texto em negrito**  
 
----
-
 ### Texto em itálico
 
 input:
@@ -107,8 +91,6 @@ input:
 output:
 
 *texto em itálico*
-
----
 
 ### Texto em negrito e itálico
 
@@ -122,8 +104,6 @@ output:
 
 ***Texto negrito e itálico***
 
----
-
 ### Texto riscado
 
 input:
@@ -135,8 +115,6 @@ input:
 output:
 
 ~~texto riscado~~
-
----
 
 ### Bloco de citação
 
@@ -150,8 +128,6 @@ output:
 
 > Aqui vem uma citação
 
----
-
 ### Citação com negrito e itálico
 
 input:
@@ -163,8 +139,6 @@ input:
 output:
 
 > Citação com **negrito** e *itálico*
-
----
 
 ### Linha horizontal
 
@@ -196,8 +170,6 @@ output:
 * Item 2
 * Item 3
 
----
-
 ### Subitem em um lista não-ordenada
 
 input:
@@ -218,8 +190,6 @@ output:
 * Item 2
 * Item 3
 
----
-
 ## Lista ordenada
 
 input:
@@ -235,8 +205,6 @@ output:
 1. Item 1
 2. Item 2
 3. Item 3
-
----
 
 ## Subitem em uma lista ordenada
 
@@ -258,8 +226,6 @@ output:
 2. Item 2
 3. Item 3
 
----
-
 ## Lista ordenada (customizada)
 
 input:
@@ -276,8 +242,6 @@ output:
 1\. Item 2
 1\. Item 3
 
----
-
 # Trabalhando com links
 
 input:
@@ -289,8 +253,6 @@ input:
 output:
 
 [Link aqui](https://github.com/carlozfilipe "Github de Carlos Filipe")
-
----
 
 # Trabalhando com imagens
 
