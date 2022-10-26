@@ -185,8 +185,8 @@ input:
 output:
 
 * Item 1
-    * Subitem 1
-    * Subitem 2
+  * Subitem 1
+  * Subitem 2
 * Item 2
 * Item 3
 
@@ -211,7 +211,7 @@ output:
 input:
 
 ```markdown
-1. Item 1
+1. Item 1  
   1.1 Subitem 1
   1.2 Subitem 2
 2. Item 2
@@ -220,9 +220,9 @@ input:
 
 output:
 
-1. Item 1
-  1.1 Subitem 1
-  1.2 Subitem 2
+1. Item 1  
+  1.1 Subitem 1  
+  1.2 Subitem 2  
 2. Item 2
 3. Item 3
 
@@ -238,8 +238,8 @@ input:
 
 output:
 
-1\. Item 1
-1\. Item 2
+1\. Item 1  
+1\. Item 2  
 1\. Item 3
 
 # Trabalhando com links
