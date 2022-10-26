@@ -10,6 +10,8 @@ output:
 
 # Título 1
 
+---
+
 input:
 
 ```markdown
@@ -19,6 +21,8 @@ input:
 output:
 
 ## Título 2
+
+---
 
 input:
 
@@ -30,6 +34,8 @@ output:
 
 ### Título 3
 
+---
+
 input:
 
 ```markdown
@@ -40,6 +46,8 @@ output:
 
 #### Título 4
 
+---
+
 input:
 
 ```markdown
@@ -49,6 +57,8 @@ input:
 output:
 
 ##### Título 5
+
+---
 
 input:
 
@@ -60,6 +70,8 @@ output:
 
 ###### Título 6
 
+---
+
 # 2. Trabalhando com parágrafos
 O parágrafo não precisa de uma tag específica para utilizá-lo. Basta escrever normalmente que ele já é identificado como um parágrafo. Para quebrar linha, basta que você dê 2 espaços ao final de um parágrafo anterior. Para pular linha e dar um espaço maior, basta que você deixe uma linha em branco entre os parágrafos.  
 Parágrafo após 2 espaços ao final do anterior.
@@ -68,7 +80,7 @@ Parágrafo após uma linha em branco do anterior.
 
 # 3. Trabalhando com ênfase
 
-### Texto em negrito
+### 3.1 Texto em negrito
 
 input:
 
@@ -80,7 +92,7 @@ output:
 
 **texto em negrito**  
 
-### Texto em itálico
+### 3.2 Texto em itálico
 
 input:
 
@@ -92,19 +104,19 @@ output:
 
 *texto em itálico*
 
-### Texto em negrito e itálico
+### 3.3 Texto em negrito e itálico
 
 input:
 
 ```markdown
-***Texto negrito e itálico***
+***Texto em negrito e itálico***
 ```
 
 output:
 
 ***Texto negrito e itálico***
 
-### Texto riscado
+### 3.4 Texto riscado
 
 input:
 
@@ -116,7 +128,7 @@ output:
 
 ~~texto riscado~~
 
-### Bloco de citação
+### 3.5 Bloco de citação
 
 input:
 
@@ -128,7 +140,7 @@ output:
 
 > Aqui vem uma citação
 
-### Citação com negrito e itálico
+### 3.6 Citação com negrito e itálico
 
 input:
 
@@ -140,7 +152,7 @@ output:
 
 > Citação com **negrito** e *itálico*
 
-### Linha horizontal
+### 3.7 Linha horizontal
 
 input:
 
@@ -154,7 +166,7 @@ output:
 
 # 4. Listas ordenadas e não-ordenadas
 
-### Lista não-ordenada
+### 4.1 Lista não-ordenada
 
 input:
 
@@ -170,7 +182,7 @@ output:
 * Item 2
 * Item 3
 
-### Subitem em um lista não-ordenada
+### 4.2 Subitem em um lista não-ordenada
 
 input:
 
@@ -190,7 +202,7 @@ output:
 * Item 2
 * Item 3
 
-## Lista ordenada
+## 4.3 Lista ordenada
 
 input:
 
@@ -206,12 +218,12 @@ output:
 2. Item 2
 3. Item 3
 
-## Subitem em uma lista ordenada
+## 4.4 Subitem em uma lista ordenada
 
 input:
 
 ```markdown
-1. Item 1  
+1. Item 1
   1.1 Subitem 1
   1.2 Subitem 2
 2. Item 2
@@ -226,7 +238,7 @@ output:
 2. Item 2
 3. Item 3
 
-## Lista ordenada (customizada)
+## 4.5 Lista ordenada (customizada)
 
 input:
 
@@ -238,11 +250,11 @@ input:
 
 output:
 
-1\. Item 1  
-1\. Item 2  
+1\. Item 1
+1\. Item 2
 1\. Item 3
 
-# Trabalhando com links
+# 5. Trabalhando com links
 
 input:
 
@@ -254,9 +266,9 @@ output:
 
 [Link aqui](https://github.com/carlozfilipe "Github de Carlos Filipe")
 
-# Trabalhando com imagens
+# 6. Trabalhando com imagens
 
-### Imagem sem link
+### 6.1 Imagem sem link
 
 input:
 
@@ -268,7 +280,7 @@ output:
 
 ![Imagem](https://randomuser.me/api/portraits/lego/8.jpg)
 
-### Imagem com link
+### 6.2 Imagem com link
 
 input:
 
@@ -280,7 +292,7 @@ output:
 
 [![Imagem](https://randomuser.me/api/portraits/lego/8.jpg)](https://randomuser.me/api/portraits/lego/8.jpg "Imagem de um lego")
 
-# Trabalhando com tabelas
+# 7. Trabalhando com tabelas
 
 input:
 
@@ -298,7 +310,7 @@ output:
 | Carlos | 26  | Desenvolvedor  |
 | Filipe | 30 | DevOps | 
 
-# Trabalhando com códigos
+# 8. Trabalhando com códigos
 
 input:
 
@@ -324,9 +336,9 @@ const sum = (x, y) => {
 console.log(`A soma é ${sum(10, 20)}.`);
 ```
 
-# Trabalhando com checkbox e emojis
+# 9. Trabalhando com emojis e checkbox
 
-### Emojis
+### 9.1 Emojis
 
 input:
 
@@ -338,7 +350,7 @@ output:
 
 :smile: :snowflake: :ghost: :rocket: :sos: :brazil:
 
-### Checkbox
+### 9.2 Checkbox
 
 input:
 
